@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <!-- Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- Navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-0">
+            <div class="container-fluid d-flex justify-content-between">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/Logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+                        <li class="nav-item ms-2">
+                            <a class="nav-link text-primary fw-bold" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown ms-2">
+                            <a class="nav-link dropdown-toggle text-primary fw-bold" href="#categories"
+                                id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Categories</a>
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item text-primary fw-bold" href="#shoes">Shoes</a></li>
+                                <li><a class="dropdown-item text-primary fw-bold" href="#bags">Bags</a></li>
+                                <li><a class="dropdown-item text-primary fw-bold" href="#watch">Watch</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link text-primary fw-bold" href="#">Cart</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link text-primary fw-bold" href="#">Login</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link text-primary fw-bold" href="#">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar end -->
+        <!-- Carousel start -->
+        <div id="carouselExampleIndicators" class="carousel slide container bg-light my-4 rounded-3" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row  d-flex align-items-center ps-5">
+                        <div class="col-lg-8 col-md-6 col-sm-6 ps-5">
+                            <h1 class="text-danger">New Shoes</h1>
+                            <button class="btn btn-warning text-light mt-2">Buy Now >></button>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 pe-0">
+                            <img src="images/categories/shoes.png" class="d-block w-50" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row  d-flex align-items-center ps-5">
+                        <div class="col-lg-8 col-md-6 col-sm-6 ps-5">
+                            <h1 class="text-danger">New Bag</h1>
+                            <button class="btn btn-warning text-light mt-2">Buy Now >></button>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 pe-0">
+                            <img src="images/categories/bag.png" class="d-block w-50" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row  d-flex align-items-center ps-5">
+                        <div class="col-lg-8 col-md-6 col-sm-6 ps-5">
+                            <h1 class="text-danger">New Watch</h1>
+                            <button class="btn btn-warning text-light mt-2">Buy Now >></button>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 pe-0">
+                            <img src="images/categories/watch.png" class="d-block w-50" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
